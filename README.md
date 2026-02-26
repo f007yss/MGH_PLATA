@@ -62,7 +62,3 @@ dotnet run --project .\MGH_PLATA\MGH_PLATA.csproj
 - `.env` is excluded from version control via `.gitignore`.
 - `.env.example` is committed so collaborators know the required variable name.
 - Current simulation settings (for example `simulatedCase`, run count, stage actives) are in `Program.cs`.
-
-## Why It Was Refactored
-
-The simulation logic was consolidated into reusable stage/worker models to remove duplicated per-role methods while preserving behavior.
